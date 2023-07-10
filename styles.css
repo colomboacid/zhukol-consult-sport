@@ -1,0 +1,377 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  background-color: #e65100;
+}
+
+/* Header */
+header {
+  background-color: #333;
+}
+.pupa {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  color: #fff;
+  padding: 25px 0px;
+  display: block;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-right: 100px;
+}
+.logo:hover {
+  color: #e65100;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-item:hover {
+  color: #e65100;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo__web {
+  color: #e65100;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-weight: bold;
+}
+.item {
+  margin-left: 500px;
+  display: inline-block;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh;
+  background-image: url("./img/sport.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.hero-title {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff5c00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #d44800;
+}
+
+/* Categories Section */
+#categories {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+}
+
+#categories h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.category {
+  width: 500px;
+  text-align: center;
+  margin-left: auto;
+
+  margin-right: auto;
+  margin-bottom: 40px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.category img {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* Products Section */
+#products {
+  padding: 60px 0;
+}
+
+#products h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.product {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.product img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.product h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Catalog Page */
+#catalog {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+}
+
+#catalog .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.pipa {
+  display: flex;
+}
+.price {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  background-color: #ff6600;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.product-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  margin-bottom: 20px;
+}
+
+/* About Us Page */
+#about-us {
+  padding: 60px 0;
+}
+
+#about-us .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Contacts Page */
+#contacts {
+  background-color: #333;
+  color: #fff;
+  padding: 60px 0;
+}
+
+#contacts .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#contacts .section-description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-icon {
+  margin-right: 10px;
+}
+
+.contact-info {
+  font-size: 18px;
+}
+
+.contact-form {
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff5c00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d44800;
+}
